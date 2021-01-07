@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  E:/selenium/src/test/java/com/demo/Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>E:/selenium/src/test/java/com/demo/Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 06 09:03:51 EET 2021</td>
+</tr>
+<tr><td>Total time:</td><td>133 seconds (133794 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.demo.Test.DynamicLoadingTest.CheckDynamicLoading()'><b>CheckDynamicLoading</b><br>Test class: com.demo.Test.DynamicLoadingTest<br>Parameters: public void com.demo.Test.DynamicLoadingTest.CheckDynamicLoading(java.lang.reflect.Method)</td>
+<td></td>
+<td>5</td>
+<td>com.demo.Test.DynamicLoadingTest@7f9fcf7f</td></tr>
+<tr>
+<td title='com.demo.Test.MultipleWindowsTest.HandleMultipleWindows()'><b>HandleMultipleWindows</b><br>Test class: com.demo.Test.MultipleWindowsTest<br>Parameters: public void com.demo.Test.MultipleWindowsTest.HandleMultipleWindows(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.MultipleWindowsTest@1a38c59b</td></tr>
+<tr>
+<td title='com.demo.Test.HoversTest.HoverOverFigure()'><b>HoverOverFigure</b><br>Test class: com.demo.Test.HoversTest<br>Parameters: public void com.demo.Test.HoversTest.HoverOverFigure(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.HoversTest@4d826d77</td></tr>
+<tr>
+<td title='com.demo.Test.DropdownListTest.SelectOptionFromDropDown()'><b>SelectOptionFromDropDown</b><br>Test class: com.demo.Test.DropdownListTest<br>Parameters: public void com.demo.Test.DropdownListTest.SelectOptionFromDropDown(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.DropdownListTest@29ba4338</td></tr>
+<tr>
+<td title='com.demo.Test.NestedFramesTest.SwitchBetweenNestedFrames()'><b>SwitchBetweenNestedFrames</b><br>Test class: com.demo.Test.NestedFramesTest<br>Parameters: public void com.demo.Test.NestedFramesTest.SwitchBetweenNestedFrames(java.lang.reflect.Method)</td>
+<td></td>
+<td>1</td>
+<td>com.demo.Test.NestedFramesTest@7f77e91b</td></tr>
+<tr>
+<td title='com.demo.Test.IFrameTest.TypeTextInsideFrame()'><b>TypeTextInsideFrame</b><br>Test class: com.demo.Test.IFrameTest<br>Parameters: public void com.demo.Test.IFrameTest.TypeTextInsideFrame(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>7</td>
+<td>com.demo.Test.IFrameTest@61009542</td></tr>
+<tr>
+<td title='com.demo.Test.ForgotPasswordTest.ValidationEmailSentToResetPassword()'><b>ValidationEmailSentToResetPassword</b><br>Test class: com.demo.Test.ForgotPasswordTest<br>Parameters: public void com.demo.Test.ForgotPasswordTest.ValidationEmailSentToResetPassword(java.lang.reflect.Method)</td>
+<td></td>
+<td>1</td>
+<td>com.demo.Test.ForgotPasswordTest@c540f5a</td></tr>
+<tr>
+<td title='com.demo.Test.FormAuthenticationTest.VerifyLogin()'><b>VerifyLogin</b><br>Test class: com.demo.Test.FormAuthenticationTest<br>Parameters: public void com.demo.Test.FormAuthenticationTest.VerifyLogin(java.lang.reflect.Method)</td>
+<td></td>
+<td>1</td>
+<td>com.demo.Test.FormAuthenticationTest@770c2e6b</td></tr>
+<tr>
+<td title='com.demo.Test.FileUploadTest.VerifyUploadFile()'><b>VerifyUploadFile</b><br>Test class: com.demo.Test.FileUploadTest<br>Parameters: public void com.demo.Test.FileUploadTest.VerifyUploadFile(java.lang.reflect.Method)</td>
+<td></td>
+<td>2</td>
+<td>com.demo.Test.FileUploadTest@7bb58ca3</td></tr>
+<tr>
+<td title='com.demo.Test.JavaScriptAlertsTest.checkJsAlert()'><b>checkJsAlert</b><br>Test class: com.demo.Test.JavaScriptAlertsTest<br>Parameters: public void com.demo.Test.JavaScriptAlertsTest.checkJsAlert(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.JavaScriptAlertsTest@77e9807f</td></tr>
+<tr>
+<td title='com.demo.Test.JavaScriptAlertsTest.checkJsConfirm()'><b>checkJsConfirm</b><br>Test class: com.demo.Test.JavaScriptAlertsTest<br>Parameters: public void com.demo.Test.JavaScriptAlertsTest.checkJsConfirm(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.JavaScriptAlertsTest@77e9807f</td></tr>
+<tr>
+<td title='com.demo.Test.JavaScriptAlertsTest.checkJsPrompt()'><b>checkJsPrompt</b><br>Test class: com.demo.Test.JavaScriptAlertsTest<br>Parameters: public void com.demo.Test.JavaScriptAlertsTest.checkJsPrompt(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.JavaScriptAlertsTest@77e9807f</td></tr>
+<tr>
+<td title='com.demo.Test.BrokenImagesTest.getBrokenImage()'><b>getBrokenImage</b><br>Test class: com.demo.Test.BrokenImagesTest<br>Parameters: public void com.demo.Test.BrokenImagesTest.getBrokenImage(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.BrokenImagesTest@c8e4bb0</td></tr>
+<tr>
+<td title='com.demo.Test.ContextMenuTest.handleContextMenu()'><b>handleContextMenu</b><br>Test class: com.demo.Test.ContextMenuTest<br>Parameters: public void com.demo.Test.ContextMenuTest.handleContextMenu(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.ContextMenuTest@6279cee3</td></tr>
+<tr>
+<td title='com.demo.Test.EntryAdTest.handleModalAd()'><b>handleModalAd</b><br>Test class: com.demo.Test.EntryAdTest<br>Parameters: public void com.demo.Test.EntryAdTest.handleModalAd(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>3</td>
+<td>com.demo.Test.EntryAdTest@57175e74</td></tr>
+<tr>
+<td title='com.demo.Test.JavaScriptTests.testAddMultipleAttributeToDropdown()'><b>testAddMultipleAttributeToDropdown</b><br>Test class: com.demo.Test.JavaScriptTests<br>Parameters: public void com.demo.Test.JavaScriptTests.testAddMultipleAttributeToDropdown(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.JavaScriptTests@2357d90a</td></tr>
+<tr>
+<td title='com.demo.Test.KeyPressesTest.testBackSpace()'><b>testBackSpace</b><br>Test class: com.demo.Test.KeyPressesTest<br>Parameters: public void com.demo.Test.KeyPressesTest.testBackSpace(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.KeyPressesTest@448ff1a8</td></tr>
+<tr>
+<td title='com.demo.Test.HorizontalSliderTest.testHorizontalSlider()'><b>testHorizontalSlider</b><br>Test class: com.demo.Test.HorizontalSliderTest<br>Parameters: public void com.demo.Test.HorizontalSliderTest.testHorizontalSlider(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.HorizontalSliderTest@1a052a00</td></tr>
+<tr>
+<td title='com.demo.Test.KeyPressesTest.testShift()'><b>testShift</b><br>Test class: com.demo.Test.KeyPressesTest<br>Parameters: public void com.demo.Test.KeyPressesTest.testShift(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.KeyPressesTest@448ff1a8</td></tr>
+<tr>
+<td title='com.demo.Test.DragAndDropTest.verifyDragAndDrop()'><b>verifyDragAndDrop</b><br>Test class: com.demo.Test.DragAndDropTest<br>Parameters: public void com.demo.Test.DragAndDropTest.verifyDragAndDrop(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.DragAndDropTest@4206a205</td></tr>
+<tr>
+<td title='com.demo.Test.ShiftingContentTest.verifyImageIsDisplayed()'><b>verifyImageIsDisplayed</b><br>Test class: com.demo.Test.ShiftingContentTest<br>Parameters: public void com.demo.Test.ShiftingContentTest.verifyImageIsDisplayed(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.ShiftingContentTest@44a664f2</td></tr>
+<tr>
+<td title='com.demo.Test.ShiftingContentTest.verifyList()'><b>verifyList</b><br>Test class: com.demo.Test.ShiftingContentTest<br>Parameters: public void com.demo.Test.ShiftingContentTest.verifyList(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.ShiftingContentTest@44a664f2</td></tr>
+<tr>
+<td title='com.demo.Test.ShiftingContentTest.verifyShiftingContentElement()'><b>verifyShiftingContentElement</b><br>Test class: com.demo.Test.ShiftingContentTest<br>Parameters: public void com.demo.Test.ShiftingContentTest.verifyShiftingContentElement(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>com.demo.Test.ShiftingContentTest@44a664f2</td></tr>
+</table><p>
+</body>
+</html>

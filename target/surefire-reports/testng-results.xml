@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-06T14:54:07 EET" name="All Test Suite" finished-at="2021-01-06T14:56:33 EET" duration-ms="146226">
+    <groups>
+    </groups>
+    <test started-at="2021-01-06T14:54:07 EET" name="E:/selenium/src/test/java/com/demo/Test" finished-at="2021-01-06T14:56:33 EET" duration-ms="146226">
+      <class name="com.demo.Test.HorizontalSliderTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.HorizontalSliderTest@f8c1ddd]" started-at="2021-01-06T14:55:06 EET" name="setUp" finished-at="2021-01-06T14:55:11 EET" duration-ms="4821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHorizontalSlider(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.HorizontalSliderTest@f8c1ddd]" started-at="2021-01-06T14:55:11 EET" name="testHorizontalSlider" finished-at="2021-01-06T14:55:11 EET" duration-ms="395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.HorizontalSliderTest.testHorizontalSlider(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHorizontalSlider -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.HorizontalSliderTest@f8c1ddd]" started-at="2021-01-06T14:55:11 EET" name="start" finished-at="2021-01-06T14:55:11 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.HorizontalSliderTest.testHorizontalSlider(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.HorizontalSliderTest@f8c1ddd]" started-at="2021-01-06T14:55:11 EET" name="tearDown" finished-at="2021-01-06T14:55:12 EET" duration-ms="60" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHorizontalSlider status=SUCCESS method=HorizontalSliderTest.testHorizontalSlider(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.HorizontalSliderTest@f8c1ddd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.HorizontalSliderTest@f8c1ddd]" started-at="2021-01-06T14:55:12 EET" name="tearDown" finished-at="2021-01-06T14:55:12 EET" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.HorizontalSliderTest -->
+      <class name="com.demo.Test.configTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.demo.Test.configTest@79ad8b2f]" started-at="2021-01-06T14:54:07 EET" name="setExtent" finished-at="2021-01-06T14:54:07 EET" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.demo.Test.configTest@79ad8b2f]" started-at="2021-01-06T14:56:33 EET" name="endReport" finished-at="2021-01-06T14:56:33 EET" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.demo.Test.configTest -->
+      <class name="com.demo.Test.JavaScriptAlertsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd]" started-at="2021-01-06T14:55:33 EET" name="setUp" finished-at="2021-01-06T14:55:39 EET" duration-ms="6451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkJsAlert(java.lang.reflect.Method)[pri:1, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd]" started-at="2021-01-06T14:55:39 EET" name="checkJsAlert" finished-at="2021-01-06T14:55:40 EET" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.JavaScriptAlertsTest.checkJsAlert(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkJsAlert -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd]" started-at="2021-01-06T14:55:39 EET" name="start" finished-at="2021-01-06T14:55:39 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.JavaScriptAlertsTest.checkJsAlert(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd]" started-at="2021-01-06T14:55:40 EET" name="tearDown" finished-at="2021-01-06T14:55:40 EET" duration-ms="59" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkJsAlert status=SUCCESS method=JavaScriptAlertsTest.checkJsAlert(java.lang.reflect.Method)[pri:1, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd]" started-at="2021-01-06T14:55:40 EET" name="start" finished-at="2021-01-06T14:55:40 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.JavaScriptAlertsTest.checkJsConfirm(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="checkJsConfirm(java.lang.reflect.Method)[pri:2, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd]" started-at="2021-01-06T14:55:40 EET" name="checkJsConfirm" finished-at="2021-01-06T14:55:40 EET" duration-ms="56" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.JavaScriptAlertsTest.checkJsConfirm(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkJsConfirm -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd]" started-at="2021-01-06T14:55:40 EET" name="tearDown" finished-at="2021-01-06T14:55:40 EET" duration-ms="58" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkJsConfirm status=SUCCESS method=JavaScriptAlertsTest.checkJsConfirm(java.lang.reflect.Method)[pri:2, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd]" started-at="2021-01-06T14:55:40 EET" name="start" finished-at="2021-01-06T14:55:40 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.JavaScriptAlertsTest.checkJsPrompt(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="checkJsPrompt(java.lang.reflect.Method)[pri:3, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd]" started-at="2021-01-06T14:55:40 EET" name="checkJsPrompt" finished-at="2021-01-06T14:55:40 EET" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.JavaScriptAlertsTest.checkJsPrompt(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkJsPrompt -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd]" started-at="2021-01-06T14:55:40 EET" name="tearDown" finished-at="2021-01-06T14:55:40 EET" duration-ms="59" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkJsPrompt status=SUCCESS method=JavaScriptAlertsTest.checkJsPrompt(java.lang.reflect.Method)[pri:3, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.JavaScriptAlertsTest@4c15e7fd]" started-at="2021-01-06T14:55:40 EET" name="tearDown" finished-at="2021-01-06T14:55:40 EET" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.JavaScriptAlertsTest -->
+      <class name="com.demo.Test.FileUploadTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.FileUploadTest@6293abcc]" started-at="2021-01-06T14:54:43 EET" name="setUp" finished-at="2021-01-06T14:54:48 EET" duration-ms="4843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyUploadFile(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.FileUploadTest@6293abcc]" started-at="2021-01-06T14:54:48 EET" name="VerifyUploadFile" finished-at="2021-01-06T14:54:50 EET" duration-ms="2755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.FileUploadTest.VerifyUploadFile(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUploadFile -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.FileUploadTest@6293abcc]" started-at="2021-01-06T14:54:48 EET" name="start" finished-at="2021-01-06T14:54:48 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.FileUploadTest.VerifyUploadFile(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.FileUploadTest@6293abcc]" started-at="2021-01-06T14:54:50 EET" name="tearDown" finished-at="2021-01-06T14:54:50 EET" duration-ms="57" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUploadFile status=SUCCESS method=FileUploadTest.VerifyUploadFile(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.FileUploadTest@6293abcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.FileUploadTest@6293abcc]" started-at="2021-01-06T14:54:50 EET" name="tearDown" finished-at="2021-01-06T14:54:51 EET" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.FileUploadTest -->
+      <class name="com.demo.Test.JavaScriptTests">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.JavaScriptTests@60704c]" started-at="2021-01-06T14:56:26 EET" name="setUp" finished-at="2021-01-06T14:56:32 EET" duration-ms="5498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.JavaScriptTests@60704c]" started-at="2021-01-06T14:56:32 EET" name="start" finished-at="2021-01-06T14:56:32 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.JavaScriptTests.testAddMultipleAttributeToDropdown(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="testAddMultipleAttributeToDropdown(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.JavaScriptTests@60704c]" started-at="2021-01-06T14:56:32 EET" name="testAddMultipleAttributeToDropdown" finished-at="2021-01-06T14:56:33 EET" duration-ms="816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.JavaScriptTests.testAddMultipleAttributeToDropdown(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleAttributeToDropdown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.JavaScriptTests@60704c]" started-at="2021-01-06T14:56:33 EET" name="tearDown" finished-at="2021-01-06T14:56:33 EET" duration-ms="56" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddMultipleAttributeToDropdown status=SUCCESS method=JavaScriptTests.testAddMultipleAttributeToDropdown(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.JavaScriptTests@60704c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.JavaScriptTests@60704c]" started-at="2021-01-06T14:56:33 EET" name="tearDown" finished-at="2021-01-06T14:56:33 EET" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.JavaScriptTests -->
+      <class name="com.demo.Test.DragAndDropTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.DragAndDropTest@13c10b87]" started-at="2021-01-06T14:54:21 EET" name="setUp" finished-at="2021-01-06T14:54:25 EET" duration-ms="4811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDragAndDrop(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.DragAndDropTest@13c10b87]" started-at="2021-01-06T14:54:25 EET" name="verifyDragAndDrop" finished-at="2021-01-06T14:54:26 EET" duration-ms="823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.DragAndDropTest.verifyDragAndDrop(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDragAndDrop -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.DragAndDropTest@13c10b87]" started-at="2021-01-06T14:54:25 EET" name="start" finished-at="2021-01-06T14:54:25 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.DragAndDropTest.verifyDragAndDrop(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.DragAndDropTest@13c10b87]" started-at="2021-01-06T14:54:26 EET" name="tearDown" finished-at="2021-01-06T14:54:26 EET" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDragAndDrop status=SUCCESS method=DragAndDropTest.verifyDragAndDrop(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.DragAndDropTest@13c10b87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.DragAndDropTest@13c10b87]" started-at="2021-01-06T14:54:26 EET" name="tearDown" finished-at="2021-01-06T14:54:27 EET" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.DragAndDropTest -->
+      <class name="com.demo.Test.MultipleWindowsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.MultipleWindowsTest@23f7d05d]" started-at="2021-01-06T14:55:47 EET" name="setUp" finished-at="2021-01-06T14:55:55 EET" duration-ms="8361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.MultipleWindowsTest@23f7d05d]" started-at="2021-01-06T14:55:55 EET" name="start" finished-at="2021-01-06T14:55:55 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.MultipleWindowsTest.HandleMultipleWindows(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="HandleMultipleWindows(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.MultipleWindowsTest@23f7d05d]" started-at="2021-01-06T14:55:55 EET" name="HandleMultipleWindows" finished-at="2021-01-06T14:55:56 EET" duration-ms="591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.MultipleWindowsTest.HandleMultipleWindows(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandleMultipleWindows -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.MultipleWindowsTest@23f7d05d]" started-at="2021-01-06T14:55:56 EET" name="tearDown" finished-at="2021-01-06T14:55:56 EET" duration-ms="47" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HandleMultipleWindows status=SUCCESS method=MultipleWindowsTest.HandleMultipleWindows(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.MultipleWindowsTest@23f7d05d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.MultipleWindowsTest@23f7d05d]" started-at="2021-01-06T14:55:56 EET" name="tearDown" finished-at="2021-01-06T14:55:56 EET" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.MultipleWindowsTest -->
+      <class name="com.demo.Test.EntryAdTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.EntryAdTest@5a955565]" started-at="2021-01-06T14:54:33 EET" name="setUp" finished-at="2021-01-06T14:54:39 EET" duration-ms="5449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.EntryAdTest@5a955565]" started-at="2021-01-06T14:54:39 EET" name="start" finished-at="2021-01-06T14:54:39 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.EntryAdTest.handleModalAd(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="handleModalAd(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.EntryAdTest@5a955565]" started-at="2021-01-06T14:54:39 EET" name="handleModalAd" finished-at="2021-01-06T14:54:42 EET" duration-ms="3601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.EntryAdTest.handleModalAd(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleModalAd -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.EntryAdTest@5a955565]" started-at="2021-01-06T14:54:42 EET" name="tearDown" finished-at="2021-01-06T14:54:42 EET" duration-ms="76" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handleModalAd status=SUCCESS method=EntryAdTest.handleModalAd(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.EntryAdTest@5a955565] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.EntryAdTest@5a955565]" started-at="2021-01-06T14:54:42 EET" name="tearDown" finished-at="2021-01-06T14:54:43 EET" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.EntryAdTest -->
+      <class name="com.demo.Test.NestedFramesTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.NestedFramesTest@1e730495]" started-at="2021-01-06T14:55:56 EET" name="setUp" finished-at="2021-01-06T14:56:02 EET" duration-ms="5373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SwitchBetweenNestedFrames(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.NestedFramesTest@1e730495]" started-at="2021-01-06T14:56:02 EET" name="SwitchBetweenNestedFrames" finished-at="2021-01-06T14:56:03 EET" duration-ms="1189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.NestedFramesTest.SwitchBetweenNestedFrames(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchBetweenNestedFrames -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.NestedFramesTest@1e730495]" started-at="2021-01-06T14:56:02 EET" name="start" finished-at="2021-01-06T14:56:02 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.NestedFramesTest.SwitchBetweenNestedFrames(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.NestedFramesTest@1e730495]" started-at="2021-01-06T14:56:03 EET" name="tearDown" finished-at="2021-01-06T14:56:03 EET" duration-ms="45" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SwitchBetweenNestedFrames status=SUCCESS method=NestedFramesTest.SwitchBetweenNestedFrames(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.NestedFramesTest@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.NestedFramesTest@1e730495]" started-at="2021-01-06T14:56:03 EET" name="tearDown" finished-at="2021-01-06T14:56:04 EET" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.NestedFramesTest -->
+      <class name="com.demo.Test.BrokenImagesTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.BrokenImagesTest@1df82230]" started-at="2021-01-06T14:54:07 EET" name="setUp" finished-at="2021-01-06T14:54:14 EET" duration-ms="6579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.BrokenImagesTest@1df82230]" started-at="2021-01-06T14:54:14 EET" name="start" finished-at="2021-01-06T14:54:14 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.BrokenImagesTest.getBrokenImage(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="getBrokenImage(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.BrokenImagesTest@1df82230]" started-at="2021-01-06T14:54:14 EET" name="getBrokenImage" finished-at="2021-01-06T14:54:14 EET" duration-ms="466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.BrokenImagesTest.getBrokenImage(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrokenImage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.BrokenImagesTest@1df82230]" started-at="2021-01-06T14:54:14 EET" name="tearDown" finished-at="2021-01-06T14:54:14 EET" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getBrokenImage status=SUCCESS method=BrokenImagesTest.getBrokenImage(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.BrokenImagesTest@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.BrokenImagesTest@1df82230]" started-at="2021-01-06T14:54:14 EET" name="tearDown" finished-at="2021-01-06T14:54:15 EET" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.BrokenImagesTest -->
+      <class name="com.demo.Test.DropdownListTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.DropdownListTest@6a01e23]" started-at="2021-01-06T14:54:27 EET" name="setUp" finished-at="2021-01-06T14:54:32 EET" duration-ms="5364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.DropdownListTest@6a01e23]" started-at="2021-01-06T14:54:32 EET" name="start" finished-at="2021-01-06T14:54:32 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.DropdownListTest.SelectOptionFromDropDown(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="SelectOptionFromDropDown(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.DropdownListTest@6a01e23]" started-at="2021-01-06T14:54:32 EET" name="SelectOptionFromDropDown" finished-at="2021-01-06T14:54:33 EET" duration-ms="567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.DropdownListTest.SelectOptionFromDropDown(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectOptionFromDropDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.DropdownListTest@6a01e23]" started-at="2021-01-06T14:54:33 EET" name="tearDown" finished-at="2021-01-06T14:54:33 EET" duration-ms="59" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectOptionFromDropDown status=SUCCESS method=DropdownListTest.SelectOptionFromDropDown(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.DropdownListTest@6a01e23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.DropdownListTest@6a01e23]" started-at="2021-01-06T14:54:33 EET" name="tearDown" finished-at="2021-01-06T14:54:33 EET" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.DropdownListTest -->
+      <class name="com.demo.Test.IFrameTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.IFrameTest@2133814f]" started-at="2021-01-06T14:55:19 EET" name="setUp" finished-at="2021-01-06T14:55:25 EET" duration-ms="5567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.IFrameTest@2133814f]" started-at="2021-01-06T14:55:25 EET" name="start" finished-at="2021-01-06T14:55:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.IFrameTest.TypeTextInsideFrame(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TypeTextInsideFrame(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.IFrameTest@2133814f]" started-at="2021-01-06T14:55:25 EET" name="TypeTextInsideFrame" finished-at="2021-01-06T14:55:32 EET" duration-ms="7565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.IFrameTest.TypeTextInsideFrame(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TypeTextInsideFrame -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.IFrameTest@2133814f]" started-at="2021-01-06T14:55:32 EET" name="tearDown" finished-at="2021-01-06T14:55:32 EET" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TypeTextInsideFrame status=SUCCESS method=IFrameTest.TypeTextInsideFrame(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.IFrameTest@2133814f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.IFrameTest@2133814f]" started-at="2021-01-06T14:55:32 EET" name="tearDown" finished-at="2021-01-06T14:55:33 EET" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.IFrameTest -->
+      <class name="com.demo.Test.DynamicLoadingTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.DynamicLoadingTest@1d082e88]" started-at="2021-01-06T14:56:11 EET" name="setUp" finished-at="2021-01-06T14:56:20 EET" duration-ms="8810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.DynamicLoadingTest@1d082e88]" started-at="2021-01-06T14:56:20 EET" name="start" finished-at="2021-01-06T14:56:20 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.DynamicLoadingTest.CheckDynamicLoading(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="CheckDynamicLoading(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.DynamicLoadingTest@1d082e88]" started-at="2021-01-06T14:56:20 EET" name="CheckDynamicLoading" finished-at="2021-01-06T14:56:26 EET" duration-ms="5966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.DynamicLoadingTest.CheckDynamicLoading(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDynamicLoading -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.DynamicLoadingTest@1d082e88]" started-at="2021-01-06T14:56:26 EET" name="tearDown" finished-at="2021-01-06T14:56:26 EET" duration-ms="60" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckDynamicLoading status=SUCCESS method=DynamicLoadingTest.CheckDynamicLoading(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.DynamicLoadingTest@1d082e88] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.DynamicLoadingTest@1d082e88]" started-at="2021-01-06T14:56:26 EET" name="tearDown" finished-at="2021-01-06T14:56:26 EET" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.DynamicLoadingTest -->
+      <class name="com.demo.Test.KeyPressesTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.KeyPressesTest@23986957]" started-at="2021-01-06T14:55:40 EET" name="setUp" finished-at="2021-01-06T14:55:46 EET" duration-ms="5457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.KeyPressesTest@23986957]" started-at="2021-01-06T14:55:46 EET" name="start" finished-at="2021-01-06T14:55:46 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.KeyPressesTest.testBackSpace(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="testBackSpace(java.lang.reflect.Method)[pri:1, instance:com.demo.Test.KeyPressesTest@23986957]" started-at="2021-01-06T14:55:46 EET" name="testBackSpace" finished-at="2021-01-06T14:55:46 EET" duration-ms="325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.KeyPressesTest.testBackSpace(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBackSpace -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.KeyPressesTest@23986957]" started-at="2021-01-06T14:55:46 EET" name="tearDown" finished-at="2021-01-06T14:55:46 EET" duration-ms="65" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBackSpace status=SUCCESS method=KeyPressesTest.testBackSpace(java.lang.reflect.Method)[pri:1, instance:com.demo.Test.KeyPressesTest@23986957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.KeyPressesTest@23986957]" started-at="2021-01-06T14:55:46 EET" name="start" finished-at="2021-01-06T14:55:46 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.KeyPressesTest.testShift(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="testShift(java.lang.reflect.Method)[pri:2, instance:com.demo.Test.KeyPressesTest@23986957]" started-at="2021-01-06T14:55:46 EET" name="testShift" finished-at="2021-01-06T14:55:46 EET" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.KeyPressesTest.testShift(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShift -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.KeyPressesTest@23986957]" started-at="2021-01-06T14:55:46 EET" name="tearDown" finished-at="2021-01-06T14:55:46 EET" duration-ms="62" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testShift status=SUCCESS method=KeyPressesTest.testShift(java.lang.reflect.Method)[pri:2, instance:com.demo.Test.KeyPressesTest@23986957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.KeyPressesTest@23986957]" started-at="2021-01-06T14:55:46 EET" name="tearDown" finished-at="2021-01-06T14:55:47 EET" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.KeyPressesTest -->
+      <class name="com.demo.Test.ForgotPasswordTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.ForgotPasswordTest@7995092a]" started-at="2021-01-06T14:54:51 EET" name="setUp" finished-at="2021-01-06T14:54:56 EET" duration-ms="5200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.ForgotPasswordTest@7995092a]" started-at="2021-01-06T14:54:56 EET" name="start" finished-at="2021-01-06T14:54:56 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.ForgotPasswordTest.ValidationEmailSentToResetPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="ValidationEmailSentToResetPassword(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.ForgotPasswordTest@7995092a]" started-at="2021-01-06T14:54:56 EET" name="ValidationEmailSentToResetPassword" finished-at="2021-01-06T14:54:59 EET" duration-ms="2510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.ForgotPasswordTest.ValidationEmailSentToResetPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidationEmailSentToResetPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.ForgotPasswordTest@7995092a]" started-at="2021-01-06T14:54:59 EET" name="tearDown" finished-at="2021-01-06T14:54:59 EET" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidationEmailSentToResetPassword status=SUCCESS method=ForgotPasswordTest.ValidationEmailSentToResetPassword(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.ForgotPasswordTest@7995092a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.ForgotPasswordTest@7995092a]" started-at="2021-01-06T14:54:59 EET" name="tearDown" finished-at="2021-01-06T14:54:59 EET" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.ForgotPasswordTest -->
+      <class name="com.demo.Test.HoversTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.HoversTest@70be0a2b]" started-at="2021-01-06T14:55:12 EET" name="setUp" finished-at="2021-01-06T14:55:17 EET" duration-ms="4885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HoverOverFigure(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.HoversTest@70be0a2b]" started-at="2021-01-06T14:55:17 EET" name="HoverOverFigure" finished-at="2021-01-06T14:55:18 EET" duration-ms="1351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.HoversTest.HoverOverFigure(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoverOverFigure -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.HoversTest@70be0a2b]" started-at="2021-01-06T14:55:17 EET" name="start" finished-at="2021-01-06T14:55:17 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.HoversTest.HoverOverFigure(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.HoversTest@70be0a2b]" started-at="2021-01-06T14:55:18 EET" name="tearDown" finished-at="2021-01-06T14:55:18 EET" duration-ms="59" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HoverOverFigure status=SUCCESS method=HoversTest.HoverOverFigure(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.HoversTest@70be0a2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.HoversTest@70be0a2b]" started-at="2021-01-06T14:55:18 EET" name="tearDown" finished-at="2021-01-06T14:55:19 EET" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.HoversTest -->
+      <class name="com.demo.Test.FormAuthenticationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.FormAuthenticationTest@7fc2413d]" started-at="2021-01-06T14:54:59 EET" name="setUp" finished-at="2021-01-06T14:55:04 EET" duration-ms="4816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.FormAuthenticationTest@7fc2413d]" started-at="2021-01-06T14:55:04 EET" name="start" finished-at="2021-01-06T14:55:04 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.FormAuthenticationTest.VerifyLogin(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="VerifyLogin(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.FormAuthenticationTest@7fc2413d]" started-at="2021-01-06T14:55:04 EET" name="VerifyLogin" finished-at="2021-01-06T14:55:06 EET" duration-ms="1416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.FormAuthenticationTest.VerifyLogin(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.FormAuthenticationTest@7fc2413d]" started-at="2021-01-06T14:55:06 EET" name="tearDown" finished-at="2021-01-06T14:55:06 EET" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=FormAuthenticationTest.VerifyLogin(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.FormAuthenticationTest@7fc2413d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.FormAuthenticationTest@7fc2413d]" started-at="2021-01-06T14:55:06 EET" name="tearDown" finished-at="2021-01-06T14:55:06 EET" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.FormAuthenticationTest -->
+      <class name="com.demo.Test.ContextMenuTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.ContextMenuTest@22635ba0]" started-at="2021-01-06T14:54:15 EET" name="setUp" finished-at="2021-01-06T14:54:19 EET" duration-ms="4833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.ContextMenuTest@22635ba0]" started-at="2021-01-06T14:54:19 EET" name="start" finished-at="2021-01-06T14:54:19 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.ContextMenuTest.handleContextMenu(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="handleContextMenu(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.ContextMenuTest@22635ba0]" started-at="2021-01-06T14:54:19 EET" name="handleContextMenu" finished-at="2021-01-06T14:54:20 EET" duration-ms="473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.ContextMenuTest.handleContextMenu(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleContextMenu -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.ContextMenuTest@22635ba0]" started-at="2021-01-06T14:54:20 EET" name="tearDown" finished-at="2021-01-06T14:54:20 EET" duration-ms="61" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handleContextMenu status=SUCCESS method=ContextMenuTest.handleContextMenu(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.ContextMenuTest@22635ba0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.ContextMenuTest@22635ba0]" started-at="2021-01-06T14:54:20 EET" name="tearDown" finished-at="2021-01-06T14:54:21 EET" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.ContextMenuTest -->
+      <class name="com.demo.Test.ShiftingContentTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.Test.ShiftingContentTest@7d3a22a9]" started-at="2021-01-06T14:56:04 EET" name="setUp" finished-at="2021-01-06T14:56:09 EET" duration-ms="5228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.ShiftingContentTest@7d3a22a9]" started-at="2021-01-06T14:56:09 EET" name="start" finished-at="2021-01-06T14:56:09 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.ShiftingContentTest.verifyShiftingContentElement(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="verifyShiftingContentElement(java.lang.reflect.Method)[pri:1, instance:com.demo.Test.ShiftingContentTest@7d3a22a9]" started-at="2021-01-06T14:56:09 EET" name="verifyShiftingContentElement" finished-at="2021-01-06T14:56:09 EET" duration-ms="608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.ShiftingContentTest.verifyShiftingContentElement(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShiftingContentElement -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.ShiftingContentTest@7d3a22a9]" started-at="2021-01-06T14:56:09 EET" name="tearDown" finished-at="2021-01-06T14:56:09 EET" duration-ms="59" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyShiftingContentElement status=SUCCESS method=ShiftingContentTest.verifyShiftingContentElement(java.lang.reflect.Method)[pri:1, instance:com.demo.Test.ShiftingContentTest@7d3a22a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyImageIsDisplayed(java.lang.reflect.Method)[pri:2, instance:com.demo.Test.ShiftingContentTest@7d3a22a9]" started-at="2021-01-06T14:56:09 EET" name="verifyImageIsDisplayed" finished-at="2021-01-06T14:56:10 EET" duration-ms="450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.ShiftingContentTest.verifyImageIsDisplayed(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImageIsDisplayed -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.ShiftingContentTest@7d3a22a9]" started-at="2021-01-06T14:56:09 EET" name="start" finished-at="2021-01-06T14:56:09 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.ShiftingContentTest.verifyImageIsDisplayed(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.ShiftingContentTest@7d3a22a9]" started-at="2021-01-06T14:56:10 EET" name="tearDown" finished-at="2021-01-06T14:56:10 EET" duration-ms="56" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyImageIsDisplayed status=SUCCESS method=ShiftingContentTest.verifyImageIsDisplayed(java.lang.reflect.Method)[pri:2, instance:com.demo.Test.ShiftingContentTest@7d3a22a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.demo.Test.ShiftingContentTest@7d3a22a9]" started-at="2021-01-06T14:56:10 EET" name="start" finished-at="2021-01-06T14:56:10 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.ShiftingContentTest.verifyList(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="verifyList(java.lang.reflect.Method)[pri:3, instance:com.demo.Test.ShiftingContentTest@7d3a22a9]" started-at="2021-01-06T14:56:10 EET" name="verifyList" finished-at="2021-01-06T14:56:10 EET" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.Test.ShiftingContentTest.verifyList(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.Test.ShiftingContentTest@7d3a22a9]" started-at="2021-01-06T14:56:10 EET" name="tearDown" finished-at="2021-01-06T14:56:10 EET" duration-ms="58" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyList status=SUCCESS method=ShiftingContentTest.verifyList(java.lang.reflect.Method)[pri:3, instance:com.demo.Test.ShiftingContentTest@7d3a22a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.Test.ShiftingContentTest@7d3a22a9]" started-at="2021-01-06T14:56:10 EET" name="tearDown" finished-at="2021-01-06T14:56:11 EET" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.Test.ShiftingContentTest -->
+    </test> <!-- E:/selenium/src/test/java/com/demo/Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
